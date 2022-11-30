@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 80%;
+  padding: 10px;
+  margin-top: 1rem;
+  background-color: #fafafa;
+}
+
+ul li {
+  color: #005f8e;
+  padding: 2px 15px;
+}
+
+ul li.selected {
+  border: 2px solid rgb(224, 224, 224);
+  color: #00a5f5;
+}
+
+ul .previous,
+.next {
+  border: none;
+}
